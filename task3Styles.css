@@ -91,42 +91,6 @@ li{
     max-width: 100%;
 }
 
-/* .grid1{
-    grid-column:1;
-    background-color:#182b49;
-    color: white;
-    padding: 15px;
-    max-height: 500px;
-    overflow-y: scroll;
-}
-
-.grid2{
-    grid-column:2;
-    background-color:#182b49;
-    color: white;
-    padding: 15px;
-    max-height: 500px;
-    overflow-y: scroll;
-} 
-
-.grid3{
-    grid-column:3;
-    background-color:#182b49;
-    color: white;
-    padding: 15px;
-    max-height: 500px;
-    overflow-y: scroll;
-}
-
-.grid4{
-    grid-column:4;
-    background-color:#182b49;
-    color: white;
-    padding: 15px;
-    max-height: 500px;
-    overflow-y: scroll;
-} */
-
 .grid1, .grid2, .grid3, .grid4 {
     background-color: #182b49;
     color: white;
