@@ -1,0 +1,167 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.Section1{
+    background-color:rgb(245, 240, 230);
+    display: inline-block;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.Section2{
+    background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.Section2 img{
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+.Section2 h1{
+    color: white; 
+}
+
+.Section2 p{
+    color: white;
+}
+
+li{ 
+    display: inline;
+}
+
+.navBar ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.navBar{
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    max-width: 400px;
+}
+
+.navBar ul li a{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    font-size: 28px;
+}
+
+.navBar ul li a:hover {
+    background-color: #182b49; 
+    color: white; 
+}
+
+.Section3{
+    background-color:rgb(245, 240, 230);
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.gridS3{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+    justify-items: center;
+    grid-auto-columns: (100px, auto);
+    max-height: 500px;
+    align-items: start;
+    max-width: 100%;
+}
+
+/* .grid1{
+    grid-column:1;
+    background-color:#182b49;
+    color: white;
+    padding: 15px;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+.grid2{
+    grid-column:2;
+    background-color:#182b49;
+    color: white;
+    padding: 15px;
+    max-height: 500px;
+    overflow-y: scroll;
+} 
+
+.grid3{
+    grid-column:3;
+    background-color:#182b49;
+    color: white;
+    padding: 15px;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+.grid4{
+    grid-column:4;
+    background-color:#182b49;
+    color: white;
+    padding: 15px;
+    max-height: 500px;
+    overflow-y: scroll;
+} */
+
+.grid1, .grid2, .grid3, .grid4 {
+    background-color: #182b49;
+    color: white;
+    padding: 15px;
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 800px){
+
+    .navBar{
+        display: none;
+    }
+
+    img{
+        max-width: 75%;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .gridS3{
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+    }
+
+    .grid1, .grid2, .grid3, .grid4{
+       width: 100% ;
+       overflow: auto;
+    }
+    
+}
+
+
