@@ -48,14 +48,15 @@ li{
 .navBar ul {
     list-style-type: none; 
     margin: 0;
-    padding: 0;
+    padding: 20px;
 }
 
 .navBar{
     position: sticky;
+    background-color: white;
     top: 0;
     overflow: hidden;
-    max-width: 400px;
+  
 }
 
 .navBar ul li a{
