@@ -78,6 +78,7 @@ li{
     margin: 0;
     padding: 20px;
     box-sizing: border-box;
+    overflow: auto;
 }
 
 .gridS3{
@@ -95,14 +96,23 @@ li{
     background-color: #182b49;
     color: white;
     padding: 15px;
-    overflow-y: scroll;
+    overflow-y: auto;
     box-sizing: border-box;
+    max-height: 500px;
 }
 
 @media screen and (max-width: 800px){
 
-    .navBar{
-        display: none;
+    /* .navBar{
+        display:none;
+    } */
+
+    .navBar ul{
+        display:none;
+    }
+
+    .navLogo{
+        display: block;
     }
 
     img{
@@ -117,6 +127,12 @@ li{
         font-size: 20px;
     }
 
+    .Section3{
+        background-color:rgb(245, 240, 230);
+        width: 100%;
+    }
+ 
+
     .gridS3{
         grid-template-columns: repeat(2,1fr);
         justify-items: center;
@@ -125,6 +141,7 @@ li{
     .grid1, .grid2, .grid3, .grid4{
        width: 100% ;
        overflow: auto;
+       max-height: 400px;
     }
     
 }
